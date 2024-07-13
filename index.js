@@ -1,0 +1,1 @@
+console.log("Hello welcome to Machine Coding practice")
