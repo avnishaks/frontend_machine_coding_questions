@@ -1,0 +1,30 @@
+*{
+    padding: 20px;
+    margin: 10px;
+}
+
+.main_nav{
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.stars{
+    font-size: large;
+    font-weight: 700;
+}
+
+#star-container span {
+    font-size: 2em;
+    color: grey;
+    cursor: pointer;
+    user-select: none;
+}
+
+#star-container span.active {
+    color: green;
+}
