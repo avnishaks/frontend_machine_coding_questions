@@ -1,0 +1,27 @@
+.parent{
+ background-color: red;
+ height: 25vh;
+ font-weight: bold;
+ position: absolute;
+
+}
+
+.child-one{
+    position: sticky;
+    background-color: aqua;
+    height: 5vh;
+    left: 50px;
+    top:0
+}
+
+.child-two{
+    background-color: bisque;
+    height: 5vh;
+    margin-left: 5rem;
+}
+
+.child-three{
+    background-color: blueviolet;
+    height: 5vh;
+    margin-left: 2rem;
+}
